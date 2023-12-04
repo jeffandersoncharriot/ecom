@@ -4,7 +4,7 @@
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:51834",
-      "sslPort": 0
+      "sslPort": 44379
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -29,8 +29,9 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/weatherforecast",
-      "publishAllPorts": true
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/search",
+      "publishAllPorts": true,
+      "useSSL": true
     }
   }
 }
